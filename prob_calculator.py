@@ -25,8 +25,8 @@ class Hat:
 
 def __is_expected(result, expected):
     is_expected = True
-    for color, expected_value in expected.items():
-        if result.count(color) < expected_value:
+    for name, expected_value in expected.items():
+        if result.count(name) < expected_value:
             return False
 
     return is_expected

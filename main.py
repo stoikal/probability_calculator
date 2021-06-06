@@ -5,7 +5,7 @@ probability = prob_calculator.experiment(
         hat=hat, 
         expected_balls={ 'blue': 1 }, 
         num_balls_drawn=1, 
-        num_experiments=100
+        num_experiments=3000
     )
 
 print(probability)
